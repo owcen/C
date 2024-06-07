@@ -59,7 +59,7 @@ int main() {
     int blue = 14;
 
     if (file == NULL) {
-        perror("Nie można otworzyć pliku");
+        perror("Nie mozna otworzyc pliku");
         return 1;
     }
 
@@ -84,7 +84,7 @@ int main() {
 
     fclose(file);
 
-    printf("Suma identyfikatorów gier możliwych do zagrania: %d\n", sumPossibleGames);
+    printf("Suma identyfikatorow gier mozliwych do zagrania: %d\n", sumPossibleGames);
     printf("Suma minimalnych mocy zestawów kostek: %d\n", sumMinimumPowers);
 
     return 0;
